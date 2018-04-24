@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.virtualbox.torchick.xps.activity.MainActivity">
+    <item
+        android:id="@+id/action_data_strategis"
+        android:orderInCategory="100"
+        android:title="@string/action_data_strategis"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_konsep_definisi"
+        android:orderInCategory="200"
+        android:title="@string/action_konsep_definisi"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about_wakatobi"
+        android:orderInCategory="300"
+        android:title="@string/action_about_wakatobi"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="400"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search"/>
+
+</menu>
